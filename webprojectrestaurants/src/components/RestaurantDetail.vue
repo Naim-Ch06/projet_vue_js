@@ -23,7 +23,7 @@
         <l-marker :lat-lng="withPopup">
           <l-popup>
             <div @click="innerClick">
-              I am a popup
+              I am a restaurant.
             </div>
           </l-popup>
         </l-marker>

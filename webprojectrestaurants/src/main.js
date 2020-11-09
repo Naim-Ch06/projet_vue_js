@@ -15,7 +15,6 @@ import 'leaflet-defaulticon-compatibility';
 
 import ListeRestaurants from './components/ListeRestaurants.vue'
 import RestaurantDetail from './components/RestaurantDetail.vue'
-import HelloWorld from './components/HelloWorld.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -32,10 +31,6 @@ const router = new VueRouter({
     {
       path: '/',
       component: ListeRestaurants
-    },
-    {
-      path: '/hello',
-      component: HelloWorld
     },
     {
       path: '/restaurant/:id',
